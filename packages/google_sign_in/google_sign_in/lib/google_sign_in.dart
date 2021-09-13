@@ -70,10 +70,10 @@ class GoogleSignInAccount implements GoogleIdentity {
   final String? photoUrl;
 
   @override
-  final String _idToken;
+  final String? _idToken;
 
   @override
-  final String _serverAuthCode;
+  final String? _serverAuthCode;
 
   final GoogleSignIn _googleSignIn;
 
