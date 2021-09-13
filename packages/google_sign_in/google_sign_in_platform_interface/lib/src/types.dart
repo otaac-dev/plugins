@@ -24,21 +24,10 @@ enum SignInOption {
 
 /// Holds information about the signed in user.
 class GoogleSignInUserData {
-<<<<<<< HEAD
-  /// Uses the given data to construct an instance.
-  GoogleSignInUserData({
-    required this.email,
-    required this.id,
-    this.displayName,
-    this.photoUrl,
-    this.idToken,
-  });
-=======
   /// Uses the given data to construct an instance. Any of these parameters
   /// could be null.
   GoogleSignInUserData(
       {this.displayName, this.email, this.id, this.photoUrl, this.idToken, this.serverAuthCode});
->>>>>>> upstream/master
 
   /// The display name of the signed in user.
   ///
