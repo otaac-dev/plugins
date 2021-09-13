@@ -61,10 +61,10 @@ class GoogleSignInAccount implements GoogleIdentity {
   final String? displayName;
 
   @override
-  final String email;
+  final String? email;
 
   @override
-  final String id;
+  final String? id;
 
   @override
   final String? photoUrl;
